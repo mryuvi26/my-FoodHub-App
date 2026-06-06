@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:2500",
+  baseURL: "https://my-foodhub-app.onrender.com",
 });
 
 export default api;
